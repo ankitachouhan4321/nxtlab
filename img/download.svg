@@ -1,0 +1,20 @@
+<svg width="420" height="200" viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Shape -->
+  <rect x="10" y="10" rx="40" ry="40" width="400" height="180" fill="#1E4E79"></rect>
+
+  <!-- Smile Curve -->
+  <path d="M70 120 Q210 190 350 120" stroke="#ffffff" stroke-width="6" fill="transparent" stroke-linecap="round"></path>
+
+  <!-- Brand Name -->
+  <text x="50%" y="95" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="42" fill="#ffffff" font-weight="700">
+    Frendz
+  </text>
+
+  <text x="50%" y="135" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="24" fill="#ffffff" letter-spacing="3">
+    FOREVER
+  </text>
+
+  <!-- Accent Bar (Energy Touch) -->
+  <rect x="300" y="40" width="30" height="6" fill="#FF9933"></rect>
+  <rect x="330" y="40" width="30" height="6" fill="#138808"></rect>
+</svg>
