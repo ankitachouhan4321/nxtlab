@@ -17,6 +17,22 @@
 
 }
 
+@media (max-width:768px) {
+    #home-banner-2{
+        display: block;
+    }
+     #home-banner-1{
+        display: none;
+    }
+    #header {
+          margin-bottom: 0px;
+    position: static;
+  padding: 0px;
+        padding-bottom: 0;
+}
+    
+}
+
 @media (max-width:815px) {
     .footer{
         justify-content: start;
