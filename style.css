@@ -710,6 +710,9 @@ nav {
 #product-sec .main-card img{
   border-radius: 10px;
 }
+#product-sec .main-card p{
+    font-size: 14px;
+}
 
 #product-sec .main-card:hover .sec-img {
   display: block;
@@ -1289,6 +1292,7 @@ transition: 0.5s;
 
 #product-sec .hg {
     margin-top: 15px;
+    font-size: 16px;
 
 }
 
@@ -1925,3 +1929,12 @@ transition: 0.5s;
 
 }
 
+
+/* Mobile */
+@media (max-width: 991px) {
+
+    .sticky-image {
+        position: static;
+    }
+
+}
