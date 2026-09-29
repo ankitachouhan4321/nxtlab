@@ -1971,7 +1971,7 @@ nav {
 
 .form-control:focus,
 .form-select:focus {
-    box-shadow: none;
+    box-shadow: none !important;
     border-color: #222;
 }
 
