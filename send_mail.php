@@ -4,21 +4,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $name    = htmlspecialchars(trim($_POST['name']));
     $email   = htmlspecialchars(trim($_POST['email']));
     $phone   = htmlspecialchars(trim($_POST['phone']));
-    $product   = htmlspecialchars(trim($_POST['product']));
-    $subject = htmlspecialchars(trim($_POST['subject']));
+    $enquiry   = htmlspecialchars(trim($_POST['enquiry']));
     $message = htmlspecialchars(trim($_POST['message']));
     
 
     // Your email where you want to receive messages
-    $to = "salesinnosys@gmail.com";  // <-- CHANGE to your email address
+    $to = "nxtlabappliances@gmail.com";  // <-- CHANGE to your email address
 
     // Email contentx
     $body  = "You have received a new message from your website contact form.\n\n";
     $body .= "Name: $name\n";
     $body .= "Email: $email\n";
      $body .= "Phone: $phone\n";
-      $body .= "Product: $product\n";
-    $body .= "Subject: $subject\n";
+      $body .= "Enquiry: $enquiry\n";
+   
     $body .= "Message:\n$message\n";
 
     // Headers

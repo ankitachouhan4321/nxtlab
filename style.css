@@ -1102,7 +1102,7 @@ nav {
 }
 
 .footer-bottom a {
-    color: #c3171c;
+    color: #bbb;
     text-decoration: none;
 }
 
@@ -1959,6 +1959,9 @@ nav {
     border: 1px solid #eee;
     border-radius: 8px;
     background: #fff;
+}
+.contact-form .btn-main{
+    border: none;
 }
 
 .form-control,
